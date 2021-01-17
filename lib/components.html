@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Tag, Attribute and Content: 
+    <div class="something">Ritika Dhiman</div>  -->
+
+    <h1>Hello, welcome to my component library...</h1>
+    <p>I am attending neog.camp and I am creating a component library which would make my website look consistent. Lets
+        get started!</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second heading</h2>
+    <p>This is the normal text. This is free flowing and wraps as a paragraph at the end.</p>
+    <p>This para will have <strong>bold text</strong>.</p>
+    <small>This is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>Fluid container</h3>
+    <div class="container">It will go till the end of the page.</div>
+
+    <h3>Center container</h3>
+    <div class="container container-center  ">It will go till the specified width and in the center of the page.</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <!-- Inline v/s Block:
+    Its like laying bricks.
+    Block - It takes entire row itself. (eg: h1, p, div)
+    Inline - It takes its own space and doesn't take entire space of the row. (eg: small, a) -->
+
+    <a href="https://www.youtube.com" class="link link-primary">Primary link</a>
+    <a href="/" class="link link-secondary">Secondary link</a>
+
+    <!-- Links are inline element. -->
+
+    <hr>
+
+    <h2>@list</h2>
+
+    <h3>Unordered list</h3>
+    <p>We can remove bullets with CSS.</p>
+    <ul class="">
+        <li>list item one</li>
+        <li>list item two</li>
+        <li>list item three</li>
+    </ul>
+
+    <h3>Inline list</h3>
+    <p>This list takes only column and it is unordered.</p>
+    <ul>
+        <li class="list-item-inline">list item one</li>
+        <li class="list-item-inline">list item two</li>
+        <li class="list-item-inline">list item three</li>
+    </ul>
+
+    <h3>Ordered list</h3>
+    <p>This is a numbered list.</p>
+    <ol>
+        <li>list item one</li>
+        <li>list item two</li>
+        <li>list item three</li>
+    </ol>
+
+    <h3>Reverse ordered list</h3>
+    <p>This is a reverse list.</p>
+    <ol reversed>
+        <li>list item one</li>
+        <li>list item two</li>
+        <li>list item three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <p>Navigation is used at the top of the page to navigate to different webpages of the website.</p>
+    <nav class="navigation">
+        <div class="nav-brand">Brand name</div>
+        <ul class="nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link link-active">About</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <!-- For illustrations, go to https://undraw.co/illustrations
+    For color combinations, go to https://tailwindcss.com/docs/customizing-colors -->
+
+    <header class="header">
+        <img class="header-img" src="images/universe.svg">
+        <h1 class="header-heading">Ritika Dhiman the <span class="header-heading-inverted">web developer</span></h1>
+    </header>
+
+    <!-- Use https://codepen.io/ to play around.-->
+
+    <hr>
+
+    <h2>@section</h2>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>White section</h3>
+                <p>This section will have white background. 
+                Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
+                </p>
+        </div>
+    </section>
+
+    <section class="section section-inverted">
+        <div class="container container-center"><h1>Gray section</h3>
+            <p>This section will have gray background.</p></div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-heading">Small heading inside footer</div>
+        <ul class="footer-pills">
+            <li class="list-item-inline"><a href="/" class="link">Linkedin</a></li>
+            <li class="list-item-inline"><a href="/" class="link">Github</a></li>
+            <li class="list-item-inline"><a href="/" class="link">Twitter</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 Hey! Welcome. \
 This is my personal portfolio in making.
 
-It will be built in:s
+It will be built in:
 1. HTML 
 1. CSS
 1. Javascript
